@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    background-color: rgb(0, 0, 0);
+    
+}
+.nav{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    padding-left: 0px;
+}
+.leftsection{
+    color:rgb(192, 107, 33);
+    font-size: 50px;
+    font-weight: 900;
+}
+.rightsection ul{
+    display: flex;
+}
+.rightsection ul li{
+    
+    font-size: 20px;
+    margin: 30px;
+    list-style: none;
+}
+.rightsection ul li a{
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+.rightsection ul li a:hover{
+    color: rgb(192, 107, 33);
+    font-size: 30px;
+}
+.main{
+    
+    padding: 70px 0px;
+}
+.maintop{
+    margin-top: 100px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.right img{
+    border-radius: 500px;
+}
+.Hello{
+    padding-top: 100px;
+    font-size: 3rem;
+}
+.btn{
+    display: flex;
+    margin: 50px 0px;
+}
+.btn button{
+    margin-right: 30px;
+    height: 50px;
+    padding: 10px;
+    font-size: large;
+    font-weight:500;
+    background-color: rgba(0, 0, 0, 0.523);
+    border: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: white;
+}
+.btn button a{
+    
+    color: rgb(192, 107, 33);
+}
+hr{
+    margin:65px 35px;
+}
+#About{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.para{
+    display: block;
+    color: white;
+    padding-top: 120px;
+    font-size: 29px;
+    padding-right: 150px;
+}
+.para span{
+    color: rgb(192, 107, 33) ;
+}
+.abouthr{
+    margin:80px 35px;
+}
+.Skills{
+    margin-top: 100px;
+}
+
+.Skills div h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.skillsbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.html{
+    border: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    height: 100px;
+    width: 100px;
+}
+.theory{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.theory h2{
+    color: white;
+}
+.contact{   
+    border: solid white;
+    border-radius: 27px;
+    height: 500px;
+    width: 400px;
+}
+#Contact{
+    margin-top: 0px;
+    height: 50px;
+}
+
+#Contact h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.kuchbhi{
+    margin-top: 50px;
+    display: flex;
+}
+.kuchbhi img{
+    margin-left: 300px;
+}
+.contact input{
+    
+    width: 350px;
+    margin: 0px 25px;
+    border: 0px;
+    height: 40px;
+    background-color: rgb(59, 57, 57);
+}
+.contact input::placeholder{
+    padding-bottom: 80px;
+    color: white;
+    padding-left:10px;
+    
+}
+.contact h3{
+    margin-top: 20px;
+    padding-left:24px;
+    color: white;
+}
+.contact button{
+    cursor: pointer;
+    width: 350px;
+    margin: 30px 25px;
+    border: 0px;
+    height: 70px; 
+    font-size: 30px;  
+}
+.images {
+    
+    display: flex;
+    width: 350px;
+    margin-left: 25px;
+}
